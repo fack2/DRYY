@@ -1,3 +1,61 @@
+* {
+  margin: 0;
+}
+
+img {
+  width: 40%;
+  display: flex;
+  float: left;
+  position: absolute;
+}
+
 ul {
   list-style-type: none;
+  display: flex;
+}
+
+li {
+  font-size: 120%;
+  font-weight: bold;
+  padding: 5%;
+}
+
+.team-mates {
+  margin: 10% 0;
+  border: 2px solid #a600ff;
+  padding: 10%;
+  border-radius: 5%;
+}
+
+.dq {
+  float: right;
+  margin: 10% 5%;
+  font-weight: bold;
+  position: inherit;
+  font-size: 130%;
+  font-style: italic;
+}
+
+.ry {
+  float: right;
+  margin: 10% 2% 10% 30%;
+  font-weight: bold;
+  position: inherit;
+  font-size: 130%;
+  font-style: italic;
+}
+span {
+  font-weight: bold;
+  font-size: 85%;
+}
+
+p {
+  font-size: 120%;
+  position: inherit;
+  margin-top: 40%;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#main {
+  width: 100 vw;
 }
