@@ -1,6 +1,6 @@
 # DRYY
  Our first GSG project : 
- A portfolio websites to showcase our team members\` skills in seperated forms 
+ A portfolio website to showcase our team members\` skills in seperated forms 
 
 
 ## Prototype
