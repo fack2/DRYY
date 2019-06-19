@@ -34,15 +34,14 @@ li {
   background: #e2e4e5;
   margin: 0 3%;
 }
-#copy{
+#copy {
   margin-right: 2%;
 }
-#fo{
+#fo {
   text-align: left;
-  margin:2%;
-
+  margin: 2%;
 }
-[input]text{
+[input]text {
   margin-left: 50px;
 }
 .dq {
@@ -53,7 +52,7 @@ li {
   font-size: 130%;
   font-style: italic;
 }
-.label{
+.label {
   margin-right: 15px;
 }
 .ry {
@@ -67,7 +66,6 @@ li {
 span {
   font-weight: bold;
   font-size: 85%;
-  
 }
 
 #description1 {
@@ -110,6 +108,7 @@ header {
 footer {
   width: 100%;
   background: #8e9eab;
+  margin-top: 8%;
 }
 
 a {
@@ -142,15 +141,14 @@ a:hover {
 }
 #copyNav {
   background: #81a7d1;
- text-align: right;
-
+  text-align: right;
 }
-#bu{
-padding: 5px;
-margin-left: 46%;
+#bu {
+  padding: 5px;
+  margin-left: 46%;
 }
-#bu:hover{
-  background-color: #00a0c6
+#bu:hover {
+  background-color: #00a0c6;
 }
 #fake1,
 #fake2,
@@ -164,6 +162,9 @@ margin-left: 46%;
 }
 #title {
   font-family: "Swanky and Moo Moo", cursive;
-  font-size: 270%;
-  padding-left: 5%;
+  /* font-size: 270%; */
+  padding: 1% 0 5% 5%;
+  font-weight: bold;
+  font-size: 200%;
+  text-align: center;
 }
