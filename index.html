@@ -131,33 +131,34 @@
     <footer>
       <nav id="footerNav">
         <ul>
-          <li>Contact Uc</li>
-          <li id="toFloatRight">© 2019 DRY, Inc</li>
+          <li>Contact Us</li>
         </ul>
       </nav>
 
       <form id="fo">
-        <label
-          >Name <input type="text" name="name" placeholder="Enter Name"
-        /></label>
+        <label class="label">Name </label><input type="text" name="name" placeholder="Enter Name"/>
         <br /><br />
-        <label
-          >Phone <input type="text" name="phone" placeholder="Enter No Phone"
-        /></label>
+        <label class="label"
+          >Phone </label><input type="text" name="phone" placeholder="Enter No Phone"
+        />
         <br /><br />
-        <label
-          >Email <input type="text" name="email" placeholder="Enter email"
-        /></label>
+        <label class="label"
+          >Email </label><input type="text" name="email" placeholder="Enter email"
+        />
         <br /><br />
         <label style="float: left;">Message </label>
         <textarea
           rows="4"
+          cols="50"
           name="message"
           placeholder="Enter message here..."
         ></textarea>
         <br /><br />
-        <input type="button" name="button" value="Submit" />
+        <input type="button" id="bu" name="button" value="Submit" />
       </form>
+      <nav id="copyNav">
+        © 2019 DRY, Inc
+      </nav>
     </footer>
   </body>
 </html>

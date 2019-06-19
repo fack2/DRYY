@@ -34,7 +34,13 @@ li {
   padding: 10%;
   border-radius: 5%;
 }
+#fo{
+  text-align: left;
 
+}
+[input]text{
+  margin-left: 50px;
+}
 .dq {
   float: right;
   margin: 10% 5%;
@@ -43,7 +49,9 @@ li {
   font-size: 130%;
   font-style: italic;
 }
-
+.label{
+  margin-right: 15px;
+}
 .ry {
   float: right;
   margin: 10% 2% 10% 30%;
@@ -55,6 +63,7 @@ li {
 span {
   font-weight: bold;
   font-size: 85%;
+  
 }
 
 #description1 {
@@ -115,6 +124,15 @@ a:hover {
 #footerNav {
   background: #81a7d1;
 }
-#toFloatRight {
-  float: right;
+#copyNav {
+  background: #81a7d1;
+ text-align: center;
+
+}
+#bu{
+padding: 5px;
+margin-left: 46%;
+}
+#bu:hover{
+  background-color: #00a0c6
 }
