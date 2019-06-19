@@ -34,9 +34,12 @@ li {
   padding: 10%;
   border-radius: 5%;
 }
+#copy{
+  margin-right: 2%;
+}
 #fo{
   text-align: left;
-  margin-left:2%;
+  margin:2%;
 
 }
 [input]text{
@@ -127,7 +130,7 @@ a:hover {
 }
 #copyNav {
   background: #81a7d1;
- text-align: center;
+ text-align: right;
 
 }
 #bu{
