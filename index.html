@@ -28,7 +28,7 @@
     <header>
       <nav>
         <ul>
-          <span id="title">DRYY</span>
+          <li id="title">DRYY</li>
           <li id="aboutUs"><a href="#fake">About Us</a></li>
         </ul>
       </nav>
@@ -146,20 +146,28 @@
       </nav>
 
       <form id="fo">
-        <label class="label">Name </label><input type="text" name="name" placeholder="Enter Name"/>
+        <label class="label" for="name">Name </label>
+        <input type="text" id="name" name="name" placeholder="Enter Name" />
         <br /><br />
-        <label class="label"
-          >Phone </label><input type="text" name="phone" placeholder="Enter No Phone"
+
+        <label class="label" for="phone">Phone </label>
+        <input
+          type="text"
+          id="phone"
+          name="phone"
+          placeholder="Enter No Phone"
         />
         <br /><br />
-        <label class="label"
-          >Email </label><input type="text" name="email" placeholder="Enter email"
-        />
+
+        <label class="label" for="email">Email </label
+        ><input type="text" id="email" name="email" placeholder="Enter email" />
         <br /><br />
-        <label style="float: left;">Message </label>
+
+        <label style="float: left;" for="txt">Message </label>
         <textarea
           rows="4"
           cols="50"
+          id="txt"
           name="message"
           placeholder="Enter message here..."
         ></textarea>
