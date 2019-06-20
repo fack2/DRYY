@@ -24,11 +24,11 @@ ul {
 li {
   display: inline-block;
   padding: 4%;
-  font-size: 120%;
+  font-size: 130%;
   font-weight: bold;
 }
 .team-mates {
-  border: 2px solid #a600ff;
+  border: 2px solid brown;
   padding: 3%;
   border-radius: 5%;
   background: #e2e4e5;
@@ -46,11 +46,12 @@ li {
 }
 .dq {
   float: right;
-  margin: 10% 5%;
+  margin: 15% 11%;
   font-weight: bold;
   position: inherit;
-  font-size: 130%;
+  font-size: 123%;
   font-style: italic;
+  padding: 0% 2%;
 }
 .label {
   padding: 10px;
@@ -75,15 +76,15 @@ span {
 }
 
 #description1 {
-  margin: 0% 5% -5% 5%;
+  margin: 16% 5% -5% 5%;
   font-family: "Cinzel", serif;
   padding: 5%;
-  font-size: 20px;
+  font-size: 119%;
   font-weight: bold;
   letter-spacing: 2px;
   background-color: rgba(192, 192, 192, 0.3);
   text-align: center;
-  color: black;
+  color: brown;
   text-shadow: -1px 1px 1px black;
 }
 #bgimg{
@@ -95,19 +96,19 @@ background: url("https://img.freepik.com/free-vector/laptop-with-rocket_23-21475
 
 }
 
-#dsection {
-  
+.dsection {
   color: black;
   padding-top: 10px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU1lMsN92HJvuj_pSjm1sJOREZHzewRqtgVxgENJqYk03zkjWjaw");
   font-family: "Cinzel", serif;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
 
-}
-#headDescription {
-  margin-top: 70px;
-  padding-left: 5%;
-}
 p {
-  font-size: 120%;
+  font-size: 100%;
   position: inherit;
   margin-top: 40%;
   font-family: "Noto Sans", sans-serif;
@@ -199,84 +200,10 @@ input{
 }
 #title {
   font-family: "Swanky and Moo Moo", cursive;
-  /* font-size: 270%; */
   padding: 1% 0 5% 5%;
-  /* padding-left: 5%; */
   font-weight: bold;
   font-size: 200%;
   text-align: center;
 }
-@media screen and (min-width: 1400px) {
-  #logo {
-    width: 120px;
-    height: 100px;
-   
-  }
-p{
-  font-size: 220%;
-}
-
-.dq {
-  
-  font-size: 250%;
-}
-li {
-  padding: 4% 7%; 
-  font-size: 220%;
-}
-h1{
-  font-size: 4em;
-}
-#main {
-  
-  margin-top: 100px;
-}
-header {
-  height: 100px;
-}
-#aboutUs {
-  padding: 36px;
-}
-
-textarea{
-  width: 50%;
-}
-input{
-  height: 50px;
-  width: 30%;
-}
 
 
-#grid{
-  display: grid;
-  grid-column-gap: 5%;
-  margin-left: 4%;
-  margin-right: 4%;
-  margin-bottom: 5%;
-grid-template-columns: auto auto;
-}
-#footerNav {
-  background: #81a7d1;
-  height: 80px;
-}
-h3{
-padding: 30px;
-}
-.team-mates {
-  padding: 5%;
-  margin-bottom: 0%;
-}
-}
-#title {
-  /* font-size: 270%; */
-  padding: 1% 0 5% 5%;
-  font-size: 300%;
-}
-
-form label {
-  padding-right: 3%;
-}
-/* input {
-  box-sizing: border-box;
-  margin-left: 5%;
-} */
