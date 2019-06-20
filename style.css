@@ -135,9 +135,11 @@ a:hover {
 #aboutUsNav {
   background: #81a7d1;
   text-align: center;
+  height: 50px;
 }
 #footerNav {
   background: #81a7d1;
+  height: 50px;
 }
 #copyNav {
   background: #81a7d1;
@@ -145,10 +147,10 @@ a:hover {
 }
 #bu {
   padding: 5px;
-  margin-left: 46%;
+  margin-left: 13%;
 }
 #bu:hover {
-  background-color: #00a0c6;
+  background-color: darkgray;
 }
 #fake1,
 #fake2,
@@ -167,4 +169,7 @@ a:hover {
   font-weight: bold;
   font-size: 200%;
   text-align: center;
+}
+form label {
+  padding-right: 3%;
 }
