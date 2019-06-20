@@ -53,8 +53,14 @@ li {
   font-style: italic;
 }
 .label {
+  padding: 10px;
   margin-right: 15px;
 }
+label{
+  padding: 10px;
+
+}
+
 .ry {
   float: right;
   margin: 10% 2% 10% 30%;
@@ -72,21 +78,32 @@ span {
   margin: 0% 5% -5% 5%;
   font-family: "Cinzel", serif;
   padding: 5%;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   letter-spacing: 2px;
   background-color: rgba(192, 192, 192, 0.3);
   text-align: center;
+  color: black;
+  text-shadow: -1px 1px 1px black;
 }
+#bgimg{
+
+background: url("https://img.freepik.com/free-vector/laptop-with-rocket_23-2147503371.jpg?size=338&ext=jpg") scroll no-repeat center/cover;;
+
+ object-fit: contain;
+ 
+
+}
+
 #dsection {
+  
   color: black;
   padding-top: 10px;
-  background-image: url("https://img.freepik.com/free-vector/laptop-with-rocket_23-2147503371.jpg?size=338&ext=jpg");
   font-family: "Cinzel", serif;
+
 }
 #headDescription {
-  margin-top: 31px;
-  margin-top: 10%;
+  margin-top: 70px;
   padding-left: 5%;
 }
 p {
@@ -95,7 +112,9 @@ p {
   margin-top: 40%;
   font-family: "Noto Sans", sans-serif;
 }
-
+h3{
+  margin-left: 2%;
+}
 header {
   position: fixed;
   top: 0;
@@ -109,6 +128,7 @@ footer {
   width: 100%;
   background: #8e9eab;
   margin-top: 8%;
+  font-family: "Cinzel", serif;
 }
 
 a {
@@ -130,14 +150,22 @@ a:hover {
 #aboutUs {
   float: right;
   color: black;
+  padding: 18px;
 }
 
 #aboutUsNav {
   background: #81a7d1;
   text-align: center;
+  color: black;
+
 }
+
 #footerNav {
   background: #81a7d1;
+  height: 50px;
+  text-align: left;
+  padding-top: 15px;
+  margin-bottom: 5%;
 }
 #copyNav {
   background: #81a7d1;
@@ -145,10 +173,19 @@ a:hover {
 }
 #bu {
   padding: 5px;
-  margin-left: 46%;
+  /* margin-left: 40%; */
+  margin-left: 17%;
+}
+
+input{
+  box-sizing: border-box;
+  margin-left: 5%;
+  /* padding: 1%;
+
+  margin-left: 17%; */
 }
 #bu:hover {
-  background-color: #00a0c6;
+  background-color: darkgray;
 }
 #fake1,
 #fake2,
@@ -164,7 +201,82 @@ a:hover {
   font-family: "Swanky and Moo Moo", cursive;
   /* font-size: 270%; */
   padding: 1% 0 5% 5%;
+  /* padding-left: 5%; */
   font-weight: bold;
   font-size: 200%;
   text-align: center;
 }
+@media screen and (min-width: 1400px) {
+  #logo {
+    width: 120px;
+    height: 100px;
+   
+  }
+p{
+  font-size: 220%;
+}
+
+.dq {
+  
+  font-size: 250%;
+}
+li {
+  padding: 4% 7%; 
+  font-size: 220%;
+}
+h1{
+  font-size: 4em;
+}
+#main {
+  
+  margin-top: 100px;
+}
+header {
+  height: 100px;
+}
+#aboutUs {
+  padding: 36px;
+}
+
+textarea{
+  width: 50%;
+}
+input{
+  height: 50px;
+  width: 30%;
+}
+
+
+#grid{
+  display: grid;
+  grid-column-gap: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 5%;
+grid-template-columns: auto auto;
+}
+#footerNav {
+  background: #81a7d1;
+  height: 80px;
+}
+h3{
+padding: 30px;
+}
+.team-mates {
+  padding: 5%;
+  margin-bottom: 0%;
+}
+}
+#title {
+  /* font-size: 270%; */
+  padding: 1% 0 5% 5%;
+  font-size: 300%;
+}
+
+form label {
+  padding-right: 3%;
+}
+/* input {
+  box-sizing: border-box;
+  margin-left: 5%;
+} */
