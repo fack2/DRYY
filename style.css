@@ -52,9 +52,7 @@ li {
   font-size: 130%;
   font-style: italic;
 }
-.label {
-  margin-right: 15px;
-}
+
 .ry {
   float: right;
   margin: 10% 2% 10% 30%;
@@ -109,6 +107,7 @@ footer {
   width: 100%;
   background: #8e9eab;
   margin-top: 8%;
+  font-family: "Cinzel", serif;
 }
 
 a {
@@ -140,6 +139,7 @@ a:hover {
 #footerNav {
   background: #81a7d1;
   height: 50px;
+  margin-bottom: 5%;
 }
 #copyNav {
   background: #81a7d1;
@@ -147,7 +147,7 @@ a:hover {
 }
 #bu {
   padding: 5px;
-  margin-left: 13%;
+  margin-left: 17%;
 }
 #bu:hover {
   background-color: darkgray;
@@ -172,4 +172,8 @@ a:hover {
 }
 form label {
   padding-right: 3%;
+}
+input {
+  box-sizing: border-box;
+  margin-left: 5%;
 }
