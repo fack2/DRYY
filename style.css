@@ -60,6 +60,7 @@ label{
   padding: 10px;
 
 }
+
 .ry {
   float: right;
   margin: 10% 2% 10% 30%;
@@ -77,11 +78,13 @@ span {
   margin: 0% 5% -5% 5%;
   font-family: "Cinzel", serif;
   padding: 5%;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   letter-spacing: 2px;
   background-color: rgba(192, 192, 192, 0.3);
   text-align: center;
+  color: black;
+  text-shadow: -1px 1px 1px black;
 }
 #bgimg{
 
@@ -91,6 +94,7 @@ background: url("https://img.freepik.com/free-vector/laptop-with-rocket_23-21475
  
 
 }
+
 #dsection {
   
   color: black;
@@ -108,7 +112,9 @@ p {
   margin-top: 40%;
   font-family: "Noto Sans", sans-serif;
 }
-
+h3{
+  margin-left: 2%;
+}
 header {
   position: fixed;
   top: 0;
@@ -121,6 +127,8 @@ header {
 footer {
   width: 100%;
   background: #8e9eab;
+  margin-top: 8%;
+  font-family: "Cinzel", serif;
 }
 
 a {
@@ -151,9 +159,13 @@ a:hover {
   color: black;
 
 }
+
 #footerNav {
   background: #81a7d1;
-  height: 40px;
+  height: 50px;
+  text-align: left;
+  padding-top: 15px;
+  margin-bottom: 5%;
 }
 #copyNav {
   background: #81a7d1;
@@ -161,14 +173,19 @@ a:hover {
 }
 #bu {
   padding: 5px;
-  margin-left: 40%;
+  /* margin-left: 40%; */
+  margin-left: 17%;
 }
-}
+
 input{
-  padding: 1%;
+  box-sizing: border-box;
+  margin-left: 5%;
+  /* padding: 1%;
+
+  margin-left: 17%; */
 }
 #bu:hover {
-  background-color: #00a0c6;
+  background-color: darkgray;
 }
 #fake1,
 #fake2,
@@ -249,9 +266,17 @@ padding: 30px;
   padding: 5%;
   margin-bottom: 0%;
 }
+}
 #title {
   /* font-size: 270%; */
   padding: 1% 0 5% 5%;
   font-size: 300%;
 }
+
+form label {
+  padding-right: 3%;
 }
+/* input {
+  box-sizing: border-box;
+  margin-left: 5%;
+} */
