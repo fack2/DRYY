@@ -24,7 +24,7 @@ ul {
 li {
   display: inline-block;
   padding: 4%;
-  font-size: 120%;
+  font-size: 130%;
   font-weight: bold;
 }
 .team-mates {
@@ -46,11 +46,12 @@ li {
 }
 .dq {
   float: right;
-  margin: 10% 5%;
+  margin: 15% 11%;
   font-weight: bold;
   position: inherit;
-  font-size: 130%;
+  font-size: 123%;
   font-style: italic;
+  padding: 0% 2%;
 }
 .label {
   margin-right: 15px;
@@ -69,10 +70,10 @@ span {
 }
 
 #description1 {
-  margin: 0% 5% -5% 5%;
+  margin: 16% 5% -5% 5%;
   font-family: "Cinzel", serif;
   padding: 5%;
-  font-size: 20px;
+  font-size: 119%;
   font-weight: bold;
   letter-spacing: 2px;
   background-color: rgba(192, 192, 192, 0.3);
@@ -87,13 +88,9 @@ span {
   background-image: url("https://img.freepik.com/free-vector/laptop-with-rocket_23-2147503371.jpg?size=338&ext=jpg");
   font-family: "Cinzel", serif;
 }
-#headDescription {
-  margin-top: 31px;
-  margin-top: 10%;
-  padding-left: 5%;
-}
+
 p {
-  font-size: 120%;
+  font-size: 100%;
   position: inherit;
   margin-top: 40%;
   font-family: "Noto Sans", sans-serif;
@@ -171,3 +168,5 @@ a:hover {
   font-size: 200%;
   text-align: center;
 }
+
+
